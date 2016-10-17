@@ -1,4 +1,4 @@
-rootProject.name = 'PropertyFinder'
+rootProject.name = 'MinYikYak'
 
 include ':app'
 include ':react-native-vector-icons'

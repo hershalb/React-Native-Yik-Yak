@@ -1,4 +1,4 @@
-package com.propertyfinder;
+package com.minyikyak;
 
 import android.app.Application;
 import android.util.Log;

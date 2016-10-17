@@ -12,7 +12,7 @@ import {
   View
 } from 'react-native';
 
-class PropertyFinder extends Component {
+class MinYikYak extends Component {
   render() {
     return (
       <View style={styles.container}>
@@ -50,4 +50,4 @@ const styles = StyleSheet.create({
   },
 });
 
-AppRegistry.registerComponent('PropertyFinder', () => PropertyFinder);
+AppRegistry.registerComponent('MinYikYak', () => MinYikYak);

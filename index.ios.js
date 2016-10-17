@@ -27,13 +27,13 @@ const styles = StyleSheet.create({
   }
 });
 
-class PropertyFinder extends Component {
+class MinYikYak extends Component {
   render() {
     return (
       <NavigatorIOS 
         style={styles.container}
         initialRoute={{
-          title: 'Property Finder',
+          title: 'MinYikYak',
           component: SearchPage
         }}/>
     );
@@ -48,4 +48,4 @@ class HelloWorld extends Component {
   }
 }
 
-AppRegistry.registerComponent('PropertyFinder', () => PropertyFinder);
+AppRegistry.registerComponent('MinYikYak', () => MinYikYak);
