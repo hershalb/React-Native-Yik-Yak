@@ -75,7 +75,7 @@ class SearchPage extends Component {
     });
   }
   onSearchPressed() {
-    this.state.messages[Date.now()] = {message: this.state.searchString, likes: 0};
+    this.state.messages[Date.now()] = {message: this.state.searchString, likes: 0, comments : []};
     this.setState({ messages: this.state.messages, searchString: ''});
     console.log(this.state.messages);
     // this.nextPage();

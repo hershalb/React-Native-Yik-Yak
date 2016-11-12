@@ -35,6 +35,7 @@ class MinYikYak extends Component {
         initialRoute={{
           title: 'MinYikYak',
           component: SearchPage
+          age
         }}/>
     );
   }
